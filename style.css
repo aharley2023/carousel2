@@ -20,7 +20,7 @@ img
 	width: 400vw;
 	height: 50vh;
 
-	/* background-color:lightgray; */
+	/* background-color:black; */
 	transform: translateZ(5vw) rotateX(10deg) rotateY(25deg) rotateZ(-10deg);
 }
 
@@ -32,7 +32,7 @@ img
 	width: 300vw;
 	height: 50vh;
 
-	/* background-color: lightgray; */
+	/* background-color: black; */
 	transform: translateZ(-5vw) rotateZ(-60deg) rotateY(-40deg);
 }
 
@@ -43,7 +43,7 @@ img
 	animation: moveRight 10s infinite linear;
 	/* transition: all 4s linear 0s; */
 
-		/* background-color: gray; */
+		/* background-color: black; */
 }
 
 @keyframes moveRight
