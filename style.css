@@ -1,0 +1,54 @@
+body
+{
+	overflow: hidden;
+	perspective-origin: 0% 0%;
+	perspective: 80vw;
+}
+
+img
+{
+	height: 100%;
+	transform: translate(-100vw);
+}
+
+#carousel
+{
+	position: absolute;
+	display: inline-block;
+	top: 20vh;
+	left: -150vw;
+	width: 400vw;
+	height: 50vh;
+
+	/* background-color:lightgray; */
+	transform: translateZ(5vw) rotateX(10deg) rotateY(25deg) rotateZ(-10deg);
+}
+
+#carousel2
+{
+	position: absolute;
+	top: 50vh;
+	left: -100vw;
+	width: 300vw;
+	height: 50vh;
+
+	/* background-color: lightgray; */
+	transform: translateZ(-5vw) rotateZ(-60deg) rotateY(-40deg);
+}
+
+#movement
+{
+	width: 100%;
+	height: 100%;
+	animation: moveRight 10s infinite linear;
+	/* transition: all 4s linear 0s; */
+
+		/* background-color: gray; */
+}
+
+@keyframes moveRight
+{
+	0% { transform: translate(0);}
+	/* 50% { transform: translate(200vw);} */
+	100% { transform: translate(300vw);}
+}
